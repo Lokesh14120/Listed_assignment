@@ -127,7 +127,7 @@ app.get('/oauth2callback', async (req, res) => {
 
     // this is the senders email whose emails we want to reply
     // this app works on the test users setted up by me only
-    //basically i have hardcoded it here, but there could have been methods for dyanamically setting it
+    //there could have been methods for dyanamically setting it
     // 1st-could have taken a form input
     // 2nd-get it extracted from the oauth2(tried but could't figure it out (: 
     const sendersEmail = "enjoyforever1403@gmail.com"
